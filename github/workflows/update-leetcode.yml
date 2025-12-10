@@ -1,0 +1,33 @@
+name: Update LeetCode Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # runs every 6 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch LeetCode Data
+        id: leetcode
+        uses: joshcai/leetcode-stats-action@v1.1.0
+        with:
+          username: dhruv_bhrasadiya
+
+      - name: Update README
+        run: |
+          sed -i "s/Problems%20Solved-[0-9]\+/Problems%20Solved-${{ steps.leetcode.outputs.solved }}/" README.md
+          sed -i "s/Current%20Streak-[0-9]\+/Current%20Streak-${{ steps.leetcode.outputs.streak }}/" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update LeetCode stats"
+          git push
