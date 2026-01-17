@@ -2,7 +2,7 @@
 <!--            GH PROFILE README             -->
 <!-- ---------------------------------------- -->
 
-<h1 align="center">Hi 👋, I'm Dhruv (Stark)</h1>
+<h1 align="center">Hi 👋, I'm Dhruv</h1>
 <h3 align="center">AI • Machine Learning • Deep Learning • Computer Vision</h3>
 
 <p align="center">
