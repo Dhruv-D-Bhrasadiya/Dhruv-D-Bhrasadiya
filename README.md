@@ -82,12 +82,7 @@
 ## 🧠 LeetCode Stats
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/dhruv_bhrasadiya?theme=dark&font=Fira%20Code&ext=heatmap" height="300">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedProblem&url=https%3A%2F%2Falfa-leetcode-api.onrender.com%2Fdhruv_bhrasadiya%2Fsolved&logo=leetcode" alt="LeetCode Problems Solved">
-  <img src="https://img.shields.io/badge/Current%20Streak-190%2B-orange?style=for-the-badge&logo=leetcode" alt="Current Streak">
+  <img src="./leetcode-stats.png" alt="LeetCode Stats Screenshot" width="100%">
 </p>
 
 ---
@@ -214,10 +209,5 @@
 > “The best way to predict the future is to create it.”
 
 <br>
-
-## ⚡ Fun Fact  
-I break models so I can learn how to fix them 😄
-
----
 
 ### ⭐ If you like my work, consider giving my repositories a star!  
