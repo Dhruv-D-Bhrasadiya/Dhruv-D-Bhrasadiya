@@ -2,7 +2,7 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "* * * * *"
   workflow_dispatch:
 
 jobs:
