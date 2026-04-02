@@ -2,32 +2,28 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # runs every 6 hours
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    name: Update LeetCode Activity
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Fetch LeetCode Data
-        id: leetcode
-        uses: joshcai/leetcode-stats-action@v1.1.0
+      - name: Generate LeetCode Activity
+        uses: Dhruv-D-Bhrasadiya/leetcode-activity-generator@main
         with:
           username: dhruv_bhrasadiya
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          output: "heatmap.svg, activity.svg"
 
-      - name: Update README
+      - name: Commit and push
         run: |
-          sed -i "s/Problems%20Solved-[0-9]\+/Problems%20Solved-${{ steps.leetcode.outputs.solved }}/" README.md
-          sed -i "s/Current%20Streak-[0-9]\+/Current%20Streak-${{ steps.leetcode.outputs.streak }}/" README.md
-
-      - name: Commit changes
-        run: |
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add README.md
-          git commit -m "Update LeetCode stats"
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Updated LeetCode activity" || exit 0
           git push
