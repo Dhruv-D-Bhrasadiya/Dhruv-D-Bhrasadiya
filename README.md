@@ -82,7 +82,7 @@
 ## 🧠 LeetCode Stats
 
 <p align="center">
-  <img src="./leetcode-stats.png" alt="LeetCode Stats Screenshot" width="100%">
+  <img src="./heatmap.svg" alt="LeetCode Stats Screenshot" width="100%">
 </p>
 
 ---
