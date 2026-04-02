@@ -2,28 +2,25 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
 
 jobs:
-  build:
+  update-stats:
     runs-on: ubuntu-latest
-    name: Update LeetCode Activity
-    
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Generate LeetCode Activity
-        uses: Dhruv-D-Bhrasadiya/leetcode-activity-generator@main
-        with:
-          username: dhruv_bhrasadiya
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          output: "heatmap.svg, activity.svg"
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate LeetCode Stats Card
+        run: |
+          curl -o leetcode-stats.svg https://leetcard.jacoblin.cool/dhruv_bhrasadiya?theme=dark&font=baloo&ext=heatmap
 
       - name: Commit and push
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add .
-          git commit -m "Updated LeetCode activity" || exit 0
+          git add leetcode-stats.svg
+          git commit -m "Update LeetCode stats" || exit 0
           git push
