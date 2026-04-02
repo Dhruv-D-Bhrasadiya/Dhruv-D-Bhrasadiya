@@ -2,8 +2,11 @@ name: Update LeetCode Stats
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-stats:
@@ -11,9 +14,9 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Generate LeetCode Stats Card
+      - name: Generate LeetCode Stats
         run: |
           curl -o leetcode-stats.svg https://leetcard.jacoblin.cool/dhruv_bhrasadiya?theme=dark&font=baloo&ext=heatmap
 
