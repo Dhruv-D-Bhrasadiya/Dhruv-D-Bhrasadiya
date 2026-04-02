@@ -82,8 +82,8 @@
 ## 🧠 LeetCode Stats
 
 <p align="center">
-  <img src="./heatmap.svg" alt="LeetCode Heatmap" width="100%">
-  <img src="./activity.svg" alt="LeetCode Activity" width="100%">
+  <img src="./leetcode-stats.svg" alt="LeetCode Heatmap" width="100%">
+  <!-- <img src="./activity.svg" alt="LeetCode Activity" width="100%"> -->
 </p>
 
 ---
