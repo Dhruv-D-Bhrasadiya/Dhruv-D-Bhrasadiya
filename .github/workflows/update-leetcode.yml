@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate LeetCode Stats
         run: |
-          curl -o leetcode-stats.svg https://leetcard.jacoblin.cool/dhruv_bhrasadiya?theme=dark&font=baloo&ext=heatmap
+          curl -o leetcode-stats.svg "https://leetcard.jacoblin.cool/dhruv_bhrasadiya?theme=dark&font=baloo&ext=heatmap&animation=true"
 
       - name: Commit and push
         run: |
