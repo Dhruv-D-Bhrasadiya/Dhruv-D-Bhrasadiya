@@ -11,7 +11,7 @@
 
 ---
 
-## 🧠 About Me  
+##  About Me  
 - 🔭 I work on **AI/ML, Deep Learning & Computer Vision**  
 - 🤖 Interested in **Transformer models, Vision Models & Generative AI**  
 - 🚀 Exploring **MLOps, Model Optimization, and Deployment**  
@@ -79,15 +79,16 @@
 
 ---
 
-## 🧠 LeetCode Stats
+## LeetCode Stats
 
 <p align="center">
-  <img src="./leetcode-stats.svg" alt="LeetCode Heatmap" width="100%">
+  <a href="https://leetcode.com/u/dhruv_bhrasadiya/" target="_blank">
+    <img src="./leetcode-stats.svg" alt="LeetCode Stats" width="100%">
+  </a>
   <!-- <img src="./activity.svg" alt="LeetCode Activity" width="100%"> -->
 </p>
 
 ---
-
 ## 💻 Tech Stack & Skills
 
 <table>
@@ -199,7 +200,7 @@
 <p align="left">
   <a href="https://github.com/Dhruv-D-Bhrasadiya"><img src="https://skillicons.dev/icons?i=github" height="40"></a>
   <a href="https://www.linkedin.com/in/dhruv_bhrasadiya/"><img src="https://skillicons.dev/icons?i=linkedin" height="40"></a>
-  <a href="https://leetcode.com/dhruv_bhrasadiya/"><img src="https://skillicons.dev/icons?i=leetcode" height="40"></a>
+  <!-- <a href="https://leetcode.com/dhruv_bhrasadiya/"><img src="https://skillicons.dev/icons?i=leetcode" height="40"></a> -->
   <a href="mailto:dhruvbhrasadiya@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40"></a>
 </p>
 
