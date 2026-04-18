@@ -208,7 +208,7 @@
 <!-- Replace links accordingly -->
 <p align="left">
   <a href="https://github.com/Dhruv-D-Bhrasadiya"><img src="https://skillicons.dev/icons?i=github" height="40"></a>
-  <a href="https://www.linkedin.com/in/dhruv_bhrasadiya/"><img src="https://skillicons.dev/icons?i=linkedin" height="40"></a>
+  <a href="https://www.linkedin.com/in/dhruv-d-bhrasadiya/"><img src="https://skillicons.dev/icons?i=linkedin" height="40"></a>
   <!-- <a href="https://leetcode.com/dhruv_bhrasadiya/"><img src="https://skillicons.dev/icons?i=leetcode" height="40"></a> -->
   <a href="mailto:dhruvbhrasadiya@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="40"></a>
 </p>
