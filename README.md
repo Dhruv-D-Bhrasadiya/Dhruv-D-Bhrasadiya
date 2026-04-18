@@ -89,26 +89,19 @@
 </p>
 
 ---
-
 ## 📁 Projects
 
-- **Personalized Cancer Diagnosis —** Tech: Python, scikit-learn, TF-IDF, Streamlit, Jupyter Notebooks. Description: ML pipeline for automated mutation classification (9 classes) with feature engineering, model evaluation and a Streamlit demo.
-
-- **Cancer Diagnosis —** Tech: Python, PyTorch, Jupyter Notebooks. Description: Notebooks and training/inference code with model weights for cancer detection/diagnosis experiments and outputs.
-
-- **Depth Nav (Depth-Aware Navigation) —** Tech: Python, YOLO (object detection), MiDaS (depth estimation), fuzzy logic. Description: Depth-aware robot navigation and collision avoidance combining 2D detection with monocular depth fusion and decision engine.
-
-- **AMIVRE —** Tech: Next.js, Tailwind, FastAPI, Celery, Redis, PostgreSQL, Qdrant, LangGraph. Description: Autonomous Market Intelligence & Venture Risk Engine — multi-agent system for real-time market analysis and intelligence gathering.
-
-- **AlexNet (Paper Replication) —** Tech: Python, PyTorch, Google Colab. Description: Reimplementation of the AlexNet architecture with data augmentation, training scripts and code-to-paper mapping for experiments.
-
-- **Interactive CV Tool —** Tech: Python, PyTorch, common CV models (ResNet, EfficientNet, ViT), Jupyter. Description: Toolkit for image classification, detection and segmentation with implementations and hyperparameter configs.
-
-- **Trash Detect —** Tech: React/TypeScript frontend, Supabase, Python (model training), PyTorch, Vercel. Description: Web app + ML pipeline for trash detection with a reward system and Supabase backend integration.
-
-- **Honey Price Predictor —** Tech: Python, Flask/Streamlit, scikit-learn, pandas. Description: Regression models and a web app to predict honey prices from chemical/pollen features with a dashboard.
-
-- **AI-Powered Cricket Analytics —** Tech: Python, OpenCV, MediaPipe, Streamlit, scikit-learn. Description: Real-time video processing and biomechanical analysis (pose estimation) for cricket shot evaluation with overlays and report generation.
+| Project | Tech stack | Description |
+|---|---|---|
+| [Personalized Cancer Diagnosis](https://github.com/Dhruv-D-Bhrasadiya/personalised-cancer-diagnosis) | Python, scikit-learn, TF-IDF, Streamlit, Jupyter | ML pipeline for mutation classification (9 classes) with TF-IDF feature engineering and a Streamlit demo. |
+| [Cancer Diagnosis](https://github.com/Dhruv-D-Bhrasadiya/cancer-diagnosis) | Python, PyTorch, Jupyter | Notebooks and code for cancer detection experiments, model weights and training outputs. |
+| [Depth Nav](https://github.com/Dhruv-D-Bhrasadiya/depth_nav) | Python, YOLO, MiDaS, Fuzzy Logic | Depth-aware robot navigation combining 2D detection with monocular depth fusion and a decision engine. |
+| [AMIVRE](https://github.com/Dhruv-D-Bhrasadiya/AMIVRE) | Next.js, Tailwind, FastAPI, Celery, Redis, PostgreSQL, Qdrant | Autonomous market intelligence multi-agent system for real-time analysis. |
+| [AlexNet](https://github.com/Dhruv-D-Bhrasadiya/AlexNet) | Python, PyTorch, Colab | Reimplementation of AlexNet with data augmentation, training scripts and code-to-paper mapping. |
+| [Interactive CV Tool](https://github.com/Dhruv-D-Bhrasadiya/Interactive-CV-Tool) | Python, PyTorch, CV models, Jupyter | Toolkit for classification, detection and segmentation with model implementations and configs. |
+| [Trash Detect](https://github.com/Dhruv-D-Bhrasadiya/Trash_Detect) | React, TypeScript, Supabase, PyTorch | Web app + ML pipeline for trash detection with a reward system and Supabase backend. |
+| [Honey Price Predictor](https://github.com/Dhruv-D-Bhrasadiya/Honey_Price_Predictor) | Python, Flask/Streamlit, scikit-learn, pandas | Regression models and a web app to predict honey prices from chemical/pollen features. |
+| [AI-Powered Cricket Analytics](https://github.com/Dhruv-D-Bhrasadiya/AI-Powered-Cricket-Analytics) | Python, OpenCV, MediaPipe, Streamlit | Real-time video processing and biomechanical analysis for cricket shot evaluation. |
 
 ## 💻 Tech Stack & Skills
 
