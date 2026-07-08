@@ -94,14 +94,14 @@
 | Project | Tech stack | Description |
 |---|---|---|
 | [Personalized Cancer Diagnosis](https://github.com/Dhruv-D-Bhrasadiya/personalised-cancer-diagnosis) | Python, scikit-learn, TF-IDF, Streamlit, Jupyter | ML pipeline for mutation classification (9 classes) with TF-IDF feature engineering and a Streamlit demo. |
-| [Cancer Diagnosis](https://github.com/Dhruv-D-Bhrasadiya/cancer-diagnosis) | Python, PyTorch, Jupyter | Notebooks and code for cancer detection experiments, model weights and training outputs. |
 | [Depth Nav](https://github.com/Dhruv-D-Bhrasadiya/depth_nav) | Python, YOLO, MiDaS, Fuzzy Logic | Depth-aware robot navigation combining 2D detection with monocular depth fusion and a decision engine. |
-| [AMIVRE](https://github.com/Dhruv-D-Bhrasadiya/AMIVRE) | Next.js, Tailwind, FastAPI, Celery, Redis, PostgreSQL, Qdrant | Autonomous market intelligence multi-agent system for real-time analysis. |
-| [AlexNet](https://github.com/Dhruv-D-Bhrasadiya/AlexNet) | Python, PyTorch, Colab | Reimplementation of AlexNet with data augmentation, training scripts and code-to-paper mapping. |
-| [Interactive CV Tool](https://github.com/Dhruv-D-Bhrasadiya/Interactive-CV-Tool) | Python, PyTorch, CV models, Jupyter | Toolkit for classification, detection and segmentation with model implementations and configs. |
 | [Trash Detect](https://github.com/Dhruv-D-Bhrasadiya/Trash_Detect) | React, TypeScript, Supabase, PyTorch | Web app + ML pipeline for trash detection with a reward system and Supabase backend. |
 | [Honey Price Predictor](https://github.com/Dhruv-D-Bhrasadiya/Honey_Price_Predictor) | Python, Flask/Streamlit, scikit-learn, pandas | Regression models and a web app to predict honey prices from chemical/pollen features. |
 | [AI-Powered Cricket Analytics](https://github.com/Dhruv-D-Bhrasadiya/AI-Powered-Cricket-Analytics) | Python, OpenCV, MediaPipe, Streamlit | Real-time video processing and biomechanical analysis for cricket shot evaluation. |
+| [Interactive CV Tool](https://github.com/Dhruv-D-Bhrasadiya/Interactive-CV-Tool) | Python, PyTorch, CV models, Jupyter | Toolkit for classification, detection and segmentation with model implementations and configs. |
+| [AlexNet](https://github.com/Dhruv-D-Bhrasadiya/AlexNet) | Python, PyTorch, Colab | Reimplementation of AlexNet with data augmentation, training scripts and code-to-paper mapping. |
+| [AMIVRE](https://github.com/Dhruv-D-Bhrasadiya/AMIVRE) (Currently working) | Next.js, Tailwind, FastAPI, Celery, Redis, PostgreSQL, Qdrant | Autonomous market intelligence multi-agent system for real-time analysis. |
+| [Cam2Cook](https://github.com/Dhruv-D-Bhrasadiya/cam2cook) (Currently working) | Python, OpenCV, Pytorch | AI to choose reciep based on available ingredients and guide you to cook in real time. |
 
 ## 💻 Tech Stack & Skills
 
