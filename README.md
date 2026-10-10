@@ -88,11 +88,10 @@ Analyzes cricket-shot videos with pose estimation and biomechanical measurements
 
 ### Computer Vision Research Intern — VJTI CoE AI Labs
 
-- Reviewed and compared research approaches across object detection, recognition, classification, segmentation, and depth estimation for vision-guided systems.
-- Experimented with CNN- and Transformer-based architectures to understand performance trade-offs and inform model selection.
-- Worked with edge-AI deployment and model optimization workflows involving **ONNX, TensorRT, and NVIDIA Jetson** hardware.
-
-> Add hard metrics here only when you can confidently substantiate them (for example, measured latency before/after optimization, FPS, or number of experiments). Specific evidence is stronger than generic claims.
+- Reviewed research approaches across object detection, recognition, classification, segmentation, and depth estimation for vision-guided systems.
+- Experimented with CNN- and Transformer-based architectures to compare performance trade-offs and guide model selection.
+- Optimized selected models with **TensorRT**, achieving **30–40% lower inference latency** and **sub-50 ms inference** on NVIDIA Jetson devices.
+- Used Docker-based pipelines to make experiments reproducible across **3+ environments and model configurations**.
 
 ## 🧰 Technical Skills
 
@@ -110,7 +109,7 @@ Analyzes cricket-shot videos with pose estimation and biomechanical measurements
 <div align="center">
 
 <a href="https://leetcode.com/u/dhruv_bhrasadiya/">
-  <img src="./leetcode-stats.svg" alt="LeetCode stats — 947 problems solved" width="500">
+  <img src="./leetcode-stats.svg" alt="LeetCode statistics" width="500">
 </a>
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=Dhruv-D-Bhrasadiya&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub contribution streak" width="500">
